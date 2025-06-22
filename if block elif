@@ -1,0 +1,24 @@
+"""
+when the condition is "if" block failed theelif
+block is executes
+syntax:
+if condition:
+     statements
+elif condition:
+    statements
+    statements
+"""
+
+#checking the user id and password
+userid = input("enter your user id...")
+password = input("enter your password...")
+
+
+if userid=="abc12390" and password=="km@7890":
+    print("welcome to our netbanking of kkkkkbank")
+elif userid=="jbd2345" and password=="mk@123345":
+    print("welcome to our netbanking of nmmbank")
+else:
+    print("the user id and password is incorrect...try again!!")  
+
+
